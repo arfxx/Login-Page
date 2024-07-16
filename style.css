@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #17153B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    background-color: #C8ACD6;
+    width: 340px;
+    padding: 20px;
+    border-radius: 16px;
+}
+h2{
+    color: #2E236C;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.input-user{
+    position: relative;
+}
+.input-user input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+}
+.input-user .material-symbols-outlined{
+    color: #666666;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    cursor: pointer;
+}
+.input-user input::placeholder{
+    font-size: smaller;
+}
+form > button{
+    background-color: #2E236C;
+    color: white;
+    font-size: small;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+form > button:hover{
+    background-color: #2e236c71;
+}
+.sign-up{
+    display: flex;
+    font-size: small;
+    gap: 5px;
+}
+.sign-up button{
+    background-color: transparent;
+    color: #2E236C;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.sign-up button:hover{
+    color: #2e236c71;
+}
