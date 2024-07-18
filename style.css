@@ -44,12 +44,16 @@ form{
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 25%;
+    top: 13px;
     right: 10px;
     cursor: pointer;
 }
 .input-user input::placeholder{
     font-size: smaller;
+}
+#password-requirement{
+    font-size: small;
+    color: #2E236C;
 }
 form > button{
     background-color: #2E236C;
