@@ -14,18 +14,27 @@ body{
     justify-content: center;
     align-items: center;
 }
-.login-box{
+.container{
     background-color: #C8ACD6;
-    width: 340px;
+    width: 400px;
     padding: 20px;
     border-radius: 16px;
 }
 h2{
     color: #2E236C;
 }
-form{
+.login-form{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+.signup-form{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.name{
+    display: flex;
     gap: 10px;
 }
 .input-user{
@@ -91,13 +100,13 @@ form > button{
 form > button:hover{
     background-color: #2e236c71;
 }
-.sign-up{
+.page-link{
     display: flex;
     font-size: small;
     margin-top: 10px;
     gap: 5px;
 }
-.sign-up button{
+.page-link div{
     background-color: transparent;
     color: #2E236C;
     text-decoration: underline;
@@ -105,6 +114,6 @@ form > button:hover{
     cursor: pointer;
     transition-duration: 0.3s;
 }
-.sign-up button:hover{
+.page-link div:hover{
     color: #2e236c71;
 }
