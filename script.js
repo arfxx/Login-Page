@@ -26,17 +26,20 @@ LoginButton.addEventListener("click", function(){
 });
 
 PageSwitch.addEventListener("click", function(){
-    if(LoginForm.style.display === "flex"){
-        LoginForm.style.display = "none";
-        SignupForm.style.display = "flex";
-        PageStatus.innerText = "Already have an account?"
-        PageSwitch.innerText = "Login";
-    }
-    else{
+    console.log(PageSwitch);
+    console.log(LoginForm);
+    console.log(SignupForm);
+    if(LoginForm.style.display === "none"){
         LoginForm.style.display = "flex";
         SignupForm.style.display = "none";
         PageStatus.innerText = "Doesn't have an account yet?"
         PageSwitch.innerText = "Signup";
+    }
+    else{
+        LoginForm.style.display = "none";
+        SignupForm.style.display = "flex";
+        PageStatus.innerText = "Already have an account?"
+        PageSwitch.innerText = "Login";
     }
 });
 
