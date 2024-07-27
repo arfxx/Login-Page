@@ -10,15 +10,18 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #17153B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
 }
-.container{
+/* Below here is style for index.html */
+.login-box{
     background-color: #C8ACD6;
     width: 400px;
     padding: 20px;
     border-radius: 16px;
+    align-self: center;
+    justify-self: center;
 }
 h2{
     color: #2E236C;
@@ -117,3 +120,5 @@ form > button:hover{
 .page-link div:hover{
     color: #2e236c71;
 }
+
+/* Below here is style for home.html */
